@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "session": "Sessions",
+    "program": "Program",
+    "venue": "Venue",
+    "faq": "FAQ",
+    "register": "Register",
+    "archive": "Archive"
+  },
+  "hero": {
+    "year": "2026",
+    "title": "Japanese Military 'Comfort Women'",
+    "titleLine2": "International Conference",
+    "date": "October 1, 2026 (Thu) 1:00 PM",
+    "venue": "Post Tower 10F, Grand Conference Hall",
+    "theme": "War Crimes Trials and Wartime Sexual Violence:",
+    "themeLine2": "Historical Legacy and the Expansion of International Human Rights Norms",
+    "organizers": "Women's Human Rights Institute of Korea · Research Center on Japanese Military 'Comfort Women'",
+    "registerBtn": "Register Now",
+    "watchLive": "Watch Live"
+  },
+  "section": {
+    "sessionTitle": "Sessions",
+    "sessionDesc": "This conference examines the multi-layered aspects of the 'comfort women' issue, from the historical significance of war crimes trials to contemporary international human rights norms.",
+    "programTitle": "Program",
+    "venueTitle": "Venue",
+    "venueName": "Seoul Post Tower Grand Conference Hall (10F)",
+    "venueAddress": "70 Sogong-ro, Jung-gu, Seoul",
+    "venueNote": "On-site parking is limited. Public transportation is strongly recommended.",
+    "faqTitle": "FAQ",
+    "registerTitle": "Registration",
+    "archiveTitle": "Past Conferences"
+  },
+  "sessions": {
+    "s1": {
+      "num": "SESSION 01",
+      "title": "Re-examining War Crimes Trials",
+      "time": "1:00 PM – 2:20 PM",
+      "desc": "Exploring how wartime sexual violence crimes were addressed in the context of the Tokyo and Nuremberg Trials."
+    },
+    "s2": {
+      "num": "SESSION 02",
+      "title": "Wartime Sexual Violence and the Development of International Human Rights Law",
+      "time": "2:40 PM – 4:00 PM",
+      "desc": "Discussing the evolution of international legal responses to wartime sexual violence since the establishment of the ICC."
+    },
+    "s3": {
+      "num": "SESSION 03",
+      "title": "Survivor Testimonies and the Politics of Memory",
+      "time": "4:20 PM – 5:40 PM",
+      "desc": "Exploring the historical significance of survivor testimonies, the preservation of memory, and educational implications for future generations."
+    }
+  },
+  "program": {
+    "opening": "Opening Ceremony",
+    "openingTime": "1:00 PM – 1:20 PM",
+    "openingSpeech": "Opening Remarks",
+    "keynote": "Keynote",
+    "presentation": "Presentation",
+    "panel": "Panel Discussion",
+    "break": "Break",
+    "closing": "Closing",
+    "moderator": "Moderator",
+    "panelist": "Panelist",
+    "lunchBreak": "Lunch Break"
+  },
+  "faq": {
+    "q1": "What is this conference about?",
+    "a1": "The International Conference on the Japanese Military 'Comfort Women' Issue is an academic event co-hosted by the Women's Human Rights Institute of Korea and the Research Center on Japanese Military 'Comfort Women', examining the historical legacy of war crimes trials and the development of international human rights norms.",
+    "q2": "Can I participate online?",
+    "a2": "Yes. All sessions will be live-streamed on our official YouTube channel on the day of the event. Recordings will also be available afterward.",
+    "q3": "Is simultaneous interpretation provided?",
+    "a3": "Yes, simultaneous interpretation in Korean, English, Japanese, and Chinese will be provided.",
+    "q4": "Is there a registration fee?",
+    "a4": "This conference is free of charge. A confirmation email will be sent to those who complete the pre-registration.",
+    "q5": "Is parking available?",
+    "a5": "On-site parking support is limited. Public transportation is recommended. Post Tower is a 5-minute walk from City Hall Station and Euljiro 1-ga Station.",
+    "q6": "How will I know if my registration is confirmed?",
+    "a6": "A confirmation email will be sent upon completion of pre-registration. A final attendance guide will be sent separately 2-3 days before the event.",
+    "q7": "Is Wi-Fi available?",
+    "a7": "Yes, free public Wi-Fi is available in Post Tower. Connection information will be provided at the registration desk.",
+    "q8": "Can I get an attendance certificate?",
+    "a8": "Yes, please contact the event secretariat after the conference to request an attendance certificate."
+  },
+  "register": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "affiliation": "Affiliation",
+    "role": "Participant Type",
+    "roleGeneral": "General",
+    "roleStudent": "Student",
+    "rolePress": "Press",
+    "roleOther": "Other",
+    "submit": "Submit",
+    "success": "Registration complete. A confirmation email will be sent shortly.",
+    "required": "This field is required"
+  },
+  "archive": {
+    "title": "Past Conferences",
+    "viewMore": "View More",
+    "all": "All",
+    "program": "Program",
+    "speakers": "Speakers",
+    "materials": "Materials"
+  },
+  "footer": {
+    "org1": "Women's Human Rights Institute of Korea",
+    "org2": "Research Center on Japanese Military 'Comfort Women'",
+    "copyright": "© 2026 International Conference on Japanese Military 'Comfort Women' Issue. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "contact": "Contact"
+  }
+}
