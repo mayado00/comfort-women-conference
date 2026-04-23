@@ -243,10 +243,16 @@ function SessionBlock({ session }) {
       <div ref={ref} className="fade-in mb-12 sm:mb-16">
         {/* Session grid: title card + presentation cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* Session title card (colored) */}
+          {/* Session title card (glassmorphism gradient) */}
           <div
-            className="rounded-2xl p-6 sm:p-8 flex flex-col justify-center text-white"
-            style={{ background: session.color }}
+            className="rounded-2xl p-6 sm:p-8 flex flex-col justify-center text-white relative overflow-hidden backdrop-blur-sm"
+            style={{
+              background: `linear-gradient(135deg, ${session.color}dd 0%, ${session.color}88 40%, ${session.color}55 100%)`,
+              backdropFilter: 'blur(12px)',
+              WebkitBackdropFilter: 'blur(12px)',
+              boxShadow: `0 8px 32px ${session.color}30, inset 0 1px 0 rgba(255,255,255,0.2)`,
+              border: '1px solid rgba(255,255,255,0.18)',
+            }}
           >
             <span className="text-xs font-semibold tracking-wider opacity-80">
               {t(`sessions.${session.id}.num`)}
