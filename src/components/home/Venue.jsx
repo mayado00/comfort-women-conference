@@ -15,23 +15,18 @@ export default function Venue() {
           </h2>
 
           <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">
-            {/* Map placeholder */}
-            <div className="h-64 sm:h-80 bg-gradient-to-br from-accent-blue/20 to-accent-purple/20 flex items-center justify-center">
-              <div className="text-center">
-                <svg
-                  width="48"
-                  height="48"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  className="mx-auto text-primary/40 mb-3"
-                >
-                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
-                  <circle cx="12" cy="9" r="2.5" />
-                </svg>
-                <p className="text-sm text-text-light">지도가 여기에 표시됩니다</p>
-              </div>
+            {/* Embedded Google Map */}
+            <div className="h-64 sm:h-80">
+              <iframe
+                src="https://www.google.com/maps?q=서울특별시+중구+소공로+70+포스트타워&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="포스트타워 위치"
+              />
             </div>
 
             {/* Venue info */}
